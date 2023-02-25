@@ -1,0 +1,5 @@
+name "dmd-test"
+description "\"staidpoisedtelephone\", no just kidding.  This is a test for `dmd`.  "
+authors "CC4696"
+copyright "Copyright © 2023, CC4696"
+license "N/A"

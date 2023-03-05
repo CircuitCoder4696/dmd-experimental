@@ -1,3 +1,5 @@
+_Warning:   This is an experimental version of D, do not murge this into the compiler._  
+
 # Configuring a Repl
 
 Every new repl comes with a `.replit` and a `replit.nix` file that let you configure your repl to do just about anything in any language!

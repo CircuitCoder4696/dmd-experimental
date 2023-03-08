@@ -1,0 +1,81 @@
+(dmd-2.102.2)@CircuitCoder4696 ➜ /workspaces/d-libs $ dub init
+Package recipe format (sdl/json) [json]: sdl
+Name [d-libs]: 
+Description [A minimal D application.]: D-language libraries
+Author name [codespace]: CircuitCoder4696
+License [proprietary]: 
+Copyright string [Copyright © 2023, CircuitCoder4696]: 
+Add dependency (leave empty to skip) []: 
+     Success created empty project in /workspaces/d-libs
+             Package successfully created in .
+(dmd-2.102.2)@CircuitCoder4696 ➜ /workspaces/d-libs $ git clone https://github.com/CircuitCoder4696/d-libs/
+Cloning into 'd-libs'...
+remote: Repository not found.
+fatal: repository 'https://github.com/CircuitCoder4696/d-libs/' not found
+(dmd-2.102.2)@CircuitCoder4696 ➜ /workspaces/d-libs $ git clone https://github.com/CircuitCoder4696/d-libs/
+Cloning into 'd-libs'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+(dmd-2.102.2)@CircuitCoder4696 ➜ /workspaces/d-libs $ git clone https://github.com/CircuitCoder4696/d-libs/
+Cloning into 'd-libs'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+(dmd-2.102.2)@CircuitCoder4696 ➜ /workspaces/d-libs $ git clone https://github.com/CircuitCoder4696/d-utils
+Cloning into 'd-utils'...
+remote: Enumerating objects: 561, done.
+remote: Counting objects: 100% (294/294), done.
+remote: Compressing objects: 100% (198/198), done.
+remote: Total 561 (delta 106), reused 206 (delta 62), pack-reused 267
+Receiving objects: 100% (561/561), 2.16 MiB | 6.44 MiB/s, done.
+Resolving deltas: 100% (194/194), done.
+(dmd-2.102.2)@CircuitCoder4696 ➜ /workspaces/d-libs $ git clone https://github.com/CircuitCoder4696/d-impls
+Cloning into 'd-impls'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+(dmd-2.102.2)@CircuitCoder4696 ➜ /workspaces/d-libs $ git clone git@github.com:CircuitCoder4696/d-impls.git
+Cloning into 'd-impls'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+(dmd-2.102.2)@CircuitCoder4696 ➜ /workspaces/d-libs $ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/codespace/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/codespace/.ssh/id_rsa
+Your public key has been saved in /home/codespace/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:X2HVstRCPATU+BLJZTR0B1fI41/BsduWeYWGjW0QzF4 codespace@codespaces-8e6dfa
+The key's randomart image is:
++---[RSA 3072]----+
+|           ==#%*B|
+|            BOEB=|
+|           .=**Bo|
+|           .o++ B|
+|        S   .. ==|
+|         . .   .o|
+|          .      |
+|                 |
+|                 |
++----[SHA256]-----+
+(dmd-2.102.2)@CircuitCoder4696 ➜ /workspaces/d-libs $ ls -a ./
+.  ..  d-utils
+(dmd-2.102.2)@CircuitCoder4696 ➜ /workspaces/d-libs $ cat ./.ssh/id_rsa.pub
+cat: ./.ssh/id_rsa.pub: No such file or directory
+(dmd-2.102.2)@CircuitCoder4696 ➜ /workspaces/d-libs $ cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDkXzFnB4ML0cWlS7AfGALcIrtxmhURykAsVL11SaT4TOb8OqBa68uRjhv9JXGNnoUEYxZZZXLA9OKM1dAahf/ynhG2diniIt1NDlZFZgvERjQLhuiQxvzuseh/TudoCsWUE22PLHWHvGbI5KpsfwheV45nYgAcuHb/FaQfUM/9jgiTXvZrcrkL11eWg7pyNyA8LfxschjPEQNPLc1y0Ky64cTavwyVjmV70Va3sY+hxbPMOnZKjECXZ7pet42zCNE7GNKVAdwyUJirrwEvVxRR0ihDLQcj2DSG1t5OJIrrrrljmZtq/KRXfOBUI1YcQ1xY/wlNlXCoU2/QBpiP0q0/lwREhDFDR286DZleEu53dNNRT9L9o8D9c8V9ynSxAkZEAjrQbo47vAwrF4aHNo1JwhcHaet4ZWsaWnA12EVLSVgu6uhFd1rO3kcOZ8a1qHFuiArCwsamCUnH1vrDb6aKFHmG6Ubt8o6W/uPBg5pBjYWM8jqF8yVksMHngShumok= codespace@codespaces-8e6dfa
+(dmd-2.102.2)@CircuitCoder4696 ➜ /workspaces/d-libs $ ls ~/
+dlang  java  nvm
+(dmd-2.102.2)@CircuitCoder4696 ➜ /workspaces/d-libs $ ls -a ~/
+.              .bash_logout  .config  .dotnet     .gnupg  .jupyter  .minikube  .nvs        .profile  .ruby   .vscode-remote
+..             .bashrc       dlang    .dub        .hugo   .local    .npm       .oh-my-zsh  .python   .rvmrc  .zshrc
+.bash_history  .cache        .docker  .gitconfig  java    .maven    nvm        .php        .rbenv    .ssh
+(dmd-2.102.2)@CircuitCoder4696 ➜ /workspaces/d-libs $ 
